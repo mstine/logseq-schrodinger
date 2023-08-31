@@ -224,7 +224,7 @@ export async function getBlocksInPage(
         console.log(zip);
         zip.forEach(function (relativePath, file) {
           if (file.dir) {
-            const index = "---\ntitle: \"" + file.name + "\"\ndescription: |\n   Subtitle\n---\n\n{{% children-cards %}}\n";
+            const index = "---\ntitle: \"" + file.name + "\"\ndescription: |\n   Subtitle\n---\n\n{{% children-cards /%}}\n";
             zip.file(file.name + "_index.md", index);
           }
         });
