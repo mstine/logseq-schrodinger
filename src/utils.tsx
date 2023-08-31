@@ -39,7 +39,6 @@ export async function getAllPublicPages_orig() {
 }
 
 export async function getAllPublicPages() {
-console.log("Hello, it's me...");
   //needs to be both public, and a page (with a name)
   const query =
     "[:find (pull ?p [*]) :where [?p :block/properties ?pr] [(get ?pr :public) ?t] [(= true ?t)][?p :block/name ?n]]";
@@ -183,8 +182,6 @@ export async function getBlocksInPage(
   categoriesArray = [],
   allPublicPages = []
 ) {
-  console.log("In getBlocksInPage(), e.page:")
-  console.log(e.page);
   //if e.page.originalName is undefined, set page to equal e.page.original-name
   let curPage = e.page;
   if (curPage.originalName != undefined) {
