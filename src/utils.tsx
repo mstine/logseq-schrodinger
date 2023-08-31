@@ -95,10 +95,13 @@ async function parseMeta(
   //Title
   //FIXME is filename used?
   propList.title = curPage.page["original-name"];
+
   if (titleDetails.length > 0) {
     propList.title = titleDetails[0].noteName;
     propList.fileName = titleDetails[1].hugoFileName;
   }
+
+  propList.title = normalizeTitle(propList.title);
 
   //Tags
   propList.tags = curPage?.page.properties.tags
@@ -224,8 +227,7 @@ export async function getBlocksInPage(
         console.log(zip);
         zip.forEach(function (relativePath, file) {
           if (file.dir) {
-            let title = file.name.substring(0, file.name.length - 1);
-            title = title.split("/").pop();
+            const title = normalizeTitle(file.name);
             const index = "---\ntitle: \"" + title + "\"\ndescription: |\n   Subtitle\n---\n\n{{% children-cards /%}}\n";
             zip.file(file.name + "_index.md", index);
           }
@@ -243,6 +245,13 @@ export async function getBlocksInPage(
       }, imageTracker.length * 102);
     }
   }
+}
+
+function normalizeTitle(fullyQualifiedTitle: string) {
+  let end = fullyQualifiedTitle.length - 1;
+  if (fullyQualifiedTitle.charAt(end) != '/')
+    end++;
+  return fullyQualifiedTitle.substring(0, end).split("/").pop();
 }
 
 async function parsePage(finalString: string, docTree) {

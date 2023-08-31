@@ -118,3 +118,7 @@ dist
 .yarn/install-state.gz
 package-lock.json
 yarn.lock
+
+# mstine
+.idea
+logseq-plugin-sd
