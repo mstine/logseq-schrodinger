@@ -351,7 +351,7 @@ function parseLinks(text: string, allPublicPages) {
   //                     [A description]([[a link]])
   // Regular links are done by Hugo [logseq](https://logseq.com)
   const reLink:RegExp      = /\[\[(.*?)\]\]/gmi
-  const reDescrLink:RegExp = /\[([a-zA-Z ]*?)\]\(\[\[(.*?)\]\]\)/gmi
+  const reDescrLink:RegExp = /\[([a-zA-Z -]*?)\]\(\[\[(.*?)\]\]\)/gmi
 
   // FIXME why doesn't this work?
   // if (! reDescrLink.test(text) && ! reLink.test(text)) return text

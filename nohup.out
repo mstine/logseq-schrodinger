@@ -1,0 +1,430 @@
+(rsapi) init loggers
+08:37:23.215 › Logseq App(0.9.15) Starting... 
+08:37:23.229 › restore proxy settings {:type "system"}
+08:37:23.230 › set proxy to {:type "system"}
+[147170:0901/083725.188778:ERROR:quota_database.cc(939)] Could not open the quota database, resetting.
+08:37:29.728 › :electron.handler/watch-dir {:path "/home/mstine/.logseq/config"}
+08:37:30.251 › [Marketplace] === Updating: rcvd/logseq-things-theme ===
+08:37:30.527 › [Marketplace] INFO: use github api -  https://plugins.logseq.io/github/api
+08:37:30.961 › [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/rcvd/logseq-things-theme/releases/latest :status 200
+08:37:30.963 › [Marketplace] Release latest: v0.0.18  from null
+08:37:30.963 › [Marketplace] Release compare: v0.0.18 (current) >  v0.0.18 (latest)
+08:37:30.964 › [Marketplace] Update skip: no new version
+08:37:31.471 › [Marketplace] === Updating: g1eny0ung/logseq-github-theme ===
+08:37:31.763 › [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/g1eny0ung/logseq-github-theme/releases/latest :status 200
+08:37:31.764 › [Marketplace] Release latest: v2.0.0  from null
+08:37:31.764 › [Marketplace] Release compare: v1.2.2 (current) >  v2.0.0 (latest)
+08:37:31.765 › [Marketplace] Updating latest: v2.0.0
+08:37:31.765 › [Marketplace] [Checked DONE] v2.0.0
+08:37:32.270 › [Marketplace] === Updating: nmartin84/logseq-tokyo-theme ===
+08:37:32.489 › [Marketplace] Error: Github API Failed(404) {"message":"Not Found","documentation_url":"https://docs.github.com/rest/releases/releases#get-the-latest-release"}
+    at /tmp/.mount_LogseqPtCL45/resources/app/electron.js:14182:25
+    at Function.$G__104176__1$$ [as $cljs$core$IFn$_invoke$arity$1$] (/tmp/.mount_LogseqPtCL45/resources/app/electron.js:4104:175)
+    at /tmp/.mount_LogseqPtCL45/resources/app/electron.js:13061:80
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+08:37:32.491 › [Marketplace] Error: [:release-channel-issue "Github API Failed(404) {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/releases/releases#get-the-latest-release\"}"]
+    at /tmp/.mount_LogseqPtCL45/resources/app/electron.js:14216:11
+    at /tmp/.mount_LogseqPtCL45/resources/app/electron.js:13087:152
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+08:37:32.994 › [Marketplace] === Updating: dmytrodubinin/Harmony-theme-for-Logseq ===
+08:37:33.247 › [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/dmytrodubinin/Harmony-theme-for-Logseq/releases/latest :status 200
+08:37:33.249 › [Marketplace] Release latest: v.1.3.0  from null
+08:37:33.249 › [Marketplace] Release compare: v1.2.7 (current) >  v.1.3.0 (latest)
+08:37:33.249 › [Marketplace] Updating latest: v.1.3.0
+08:37:33.249 › [Marketplace] [Checked DONE] v.1.3.0
+08:37:33.754 › [Marketplace] === Updating: l3ony2k/D42ker-Logseq ===
+08:37:34.087 › [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/l3ony2k/D42ker-Logseq/releases/latest :status 200
+08:37:34.088 › [Marketplace] Release latest: v0.0.9  from null
+08:37:34.088 › [Marketplace] Release compare: v0.0.9 (current) >  v0.0.9 (latest)
+08:37:34.089 › [Marketplace] Update skip: no new version
+08:37:34.592 › [Marketplace] === Updating: sethfair/logseq-atlas-theme ===
+08:37:34.843 › [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/sethfair/logseq-atlas-theme/releases/latest :status 200
+08:37:34.844 › [Marketplace] Release latest: v0.3.5  from https://api.github.com/repos/sethfair/logseq-atlas-theme/releases/assets/83811325
+08:37:34.845 › [Marketplace] Release compare: v0.3.5 (current) >  v0.3.5 (latest)
+08:37:34.845 › [Marketplace] Update skip: no new version
+08:37:35.349 › [Marketplace] === Updating: haydenull/logseq-woz-theme ===
+08:37:35.639 › [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/haydenull/logseq-woz-theme/releases/latest :status 200
+08:37:35.640 › [Marketplace] Release latest: v1.10.5  from https://api.github.com/repos/haydenull/logseq-woz-theme/releases/assets/115299171
+08:37:35.640 › [Marketplace] Release compare: v1.10.4 (current) >  v1.10.5 (latest)
+08:37:35.641 › [Marketplace] Updating latest: v1.10.5
+08:37:35.641 › [Marketplace] [Checked DONE] v1.10.5
+08:37:36.143 › [Marketplace] === Updating: Mat4m0/logseq-atmos-theme ===
+08:37:36.429 › [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/Mat4m0/logseq-atmos-theme/releases/latest :status 200
+08:37:36.430 › [Marketplace] Release latest: v.0.1.2  from null
+08:37:36.430 › [Marketplace] Release compare: v0.1.1 (current) >  v.0.1.2 (latest)
+08:37:36.430 › [Marketplace] Updating latest: v.0.1.2
+08:37:36.431 › [Marketplace] [Checked DONE] v.0.1.2
+08:37:36.935 › [Marketplace] === Updating: hisea/logseq-ozean-theme ===
+08:37:37.313 › [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/hisea/logseq-ozean-theme/releases/latest :status 200
+08:37:37.314 › [Marketplace] Release latest: v0.1.1  from https://api.github.com/repos/hisea/logseq-ozean-theme/releases/assets/66962280
+08:37:37.314 › [Marketplace] Release compare: v0.1.1 (current) >  v0.1.1 (latest)
+08:37:37.314 › [Marketplace] Update skip: no new version
+08:37:37.817 › [Marketplace] === Updating: dale502/logseq-discord-like-dark-theme ===
+08:37:38.170 › [Marketplace] Error: Github API Failed(404) {"message":"Not Found","documentation_url":"https://docs.github.com/rest/releases/releases#get-the-latest-release"}
+    at /tmp/.mount_LogseqPtCL45/resources/app/electron.js:14182:25
+    at Function.$G__104176__1$$ [as $cljs$core$IFn$_invoke$arity$1$] (/tmp/.mount_LogseqPtCL45/resources/app/electron.js:4104:175)
+    at /tmp/.mount_LogseqPtCL45/resources/app/electron.js:13061:80
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+08:37:38.171 › [Marketplace] Error: [:release-channel-issue "Github API Failed(404) {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/releases/releases#get-the-latest-release\"}"]
+    at /tmp/.mount_LogseqPtCL45/resources/app/electron.js:14216:11
+    at /tmp/.mount_LogseqPtCL45/resources/app/electron.js:13087:152
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+08:37:38.675 › [Marketplace] === Updating: blueteafrog/logseq-oxfordblue-theme ===
+08:37:38.986 › [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/blueteafrog/logseq-oxfordblue-theme/releases/latest :status 200
+08:37:38.987 › [Marketplace] Release latest: v0.2.0  from null
+08:37:38.987 › [Marketplace] Release compare: v0.2.0 (current) >  v0.2.0 (latest)
+08:37:38.987 › [Marketplace] Update skip: no new version
+08:37:39.496 › [Marketplace] === Updating: readwiseio/logseq-readwise-official-plugin ===
+08:37:39.824 › [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/readwiseio/logseq-readwise-official-plugin/releases/latest :status 200
+08:37:39.826 › [Marketplace] Release latest: v1.4.9  from https://api.github.com/repos/readwiseio/logseq-readwise-official-plugin/releases/assets/117907494
+08:37:39.826 › [Marketplace] Release compare: v1.4.9 (current) >  v1.4.9 (latest)
+08:37:39.826 › [Marketplace] Update skip: no new version
+08:37:40.330 › [Marketplace] === Updating: blueteafrog/logseq-gunmetal-theme ===
+08:37:40.599 › [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/blueteafrog/logseq-gunmetal-theme/releases/latest :status 200
+08:37:40.600 › [Marketplace] Release latest: v0.1.4  from null
+08:37:40.600 › [Marketplace] Release compare: v0.1.4 (current) >  v0.1.4 (latest)
+08:37:40.600 › [Marketplace] Update skip: no new version
+08:37:41.103 › [Marketplace] === Updating: ttytm/logseq-allday-theme ===
+08:37:41.335 › [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/ttytm/logseq-allday-theme/releases/latest :status 200
+08:37:41.336 › [Marketplace] Release latest: v1.1.19  from null
+08:37:41.336 › [Marketplace] Release compare: 1.1.16 (current) >  v1.1.19 (latest)
+08:37:41.337 › [Marketplace] Updating latest: v1.1.19
+08:37:41.337 › [Marketplace] [Checked DONE] v1.1.19
+08:38:34.306 › :electron.handler/watch-dir {:path "/home/mstine/PARA-Roots/Local/3-Resources/my-second-brain"}
+08:38:35.252 › :electron.handler/backup backup db file journals/2022_08_29.md
+08:38:35.263 › :electron.handler/backup backup db file journals/2022_08_31.md
+08:38:35.264 › :electron.handler/backup backup db file journals/2022_09_06.md
+08:38:35.264 › :electron.handler/backup backup db file journals/2022_09_28.md
+08:38:35.267 › :electron.handler/backup backup db file journals/2022_12_19.md
+08:38:35.268 › :electron.handler/backup backup db file journals/2022_12_20.md
+08:38:35.268 › :electron.handler/backup backup db file journals/2022_12_21.md
+08:38:35.269 › :electron.handler/backup backup db file journals/2022_12_23.md
+08:38:35.270 › :electron.handler/backup backup db file journals/2023_01_03.md
+08:38:35.271 › :electron.handler/backup backup db file journals/2023_01_06.md
+08:38:35.272 › :electron.handler/backup backup db file journals/2023_01_22.md
+08:38:35.273 › :electron.handler/backup backup db file journals/2023_01_29.md
+08:38:35.273 › :electron.handler/backup backup db file journals/2023_02_04.md
+08:38:35.328 › :electron.handler/backup backup db file pages/Project%3A Domain-Oriented Adaptive Architecture.md
+08:38:54.202 › set sync env "prod" for db8a70a6-64f8-438b-aea9-93a80a01dc0e
+08:38:54.964 › get file meta of "/home/mstine/PARA-Roots/Local/3-Resources/my-second-brain": 833 files in 745ms
+08:38:55.784 › cancelling all request
+08:38:55.786 › update local files: ["pages/Tweet%3A Tweets From Replit ⠕.md", "pages/Book%3A Programming WebAssembly With Rust.md", "pages/Tweet%3A Tweets From Swear Trek.md", "pages/Article%3A Cloud Native Part 5%3A Microservices.md", "pages/Tweet%3A Tweets From Kyle Kowalski.md", "pages/Tweet%3A Tweets From the Cyber.md", "pages/Tweet%3A Tweets From JT Perry.md", "pages/Tweet%3A Tweets From the West Wing Gifs.md", "pages/Tweet%3A How the Universe Works P....md", "pages/Article%3A Chaos Engineering%3A Why the Label Matters.md", "pages/Tweet%3A Tweets From Jordan Peele.md", "pages/Tweet%3A Tweets From I Am Shaun..md", "pages/Tweet%3A Tweets From Colin Rubbert.md", "pages/Tweet%3A Tweets From Star Wars.md", "pages/Tweet%3A Tweets From Guna.md", "pages/Tweet%3A Tweets From Daniel Bryant.md", "pages/Tweet%3A Tweets From Ryan Breslow 🕺.md", "pages/Tweet%3A Tweets From Jesse McLaren.md", "pages/Article%3A Cloud Native Part 3%3A DevOps.md", "pages/Tweet%3A Tweets from ruchowdh@mastodon.social.md", "pages/Tweet%3A Tweets From Blake Azevedo.md", "pages/Tweet%3A Tweets From James Wickett.md", "pages/Tweet%3A Tweets From Shane Parrish.md", "pages/Tweet%3A Tweets From Fermyon.md", "pages/Tweet%3A Tweets From Jim Park🏀🌌.md", "pages/Tweet%3A Tweets From Justin Garrison.md", "pages/Tweet%3A Tweets From Maximum Von SideEye.md", "pages/Tweet%3A Tweets From James Ward.md", "pages/Tweet%3A Tweets From @Mikko.md", "pages/Tweet%3A Tweets From Stephen Colbert.md", "pages/Tweet%3A Tweets From 🇵🇷EVE🇵🇷.md", "pages/Tweet%3A Tweets From Kunal Shah.md", "pages/Tweet%3A Tweets From Helen 侯-Sandí.md", "pages/Tweet%3A Tweets From Praise & Worship God!.md", "pages/Tweet%3A What Is the Best Article....md", "pages/Tweet%3A Tweets From Danny Deraney.md", "pages/Tweet%3A Tweets From Rose W.md", "pages/Tweet%3A Tweets From Ship 30 for 30.md", "pages/Tweet%3A Tweets From Christian Nightmares.md", "pages/Tweet%3A Tweets From Abby Fuller.md", "pages/Tweet%3A Tweets From Bojan Pancevski.md", "pages/Tweet%3A Tweets From Jason J Hunter.md", "pages/Tweet%3A Tweets From Ichigo Niggasake.md", "pages/Tweet%3A Tweets from Jason Yip (@jchyip@mastodon.online).md", "pages/Tweet%3A Tweets From Bruce Lawson.md", "pages/Tweet%3A Tweets From CB.md", "pages/Tweet%3A Tweets From Toronto Raptors.md", "pages/Tweet%3A Tweets From Nat Pryce.md", "pages/Tweet%3A Tweets from Gena Ruocco Thomas, MID {she%2Fher}.md", "pages/Tweet%3A Tweets From Kevin Klauer DO, EJD.md", "pages/Tweet%3A Tweets From Navalism.md", "pages/Tweet%3A Tweets From Lecrae.md", "pages/Tweet%3A Tweets From Teenage Stepdad.md", "pages/Tweet%3A Tweets From Justin Gehtland.md", "pages/Tweet%3A Tweets From BM 🍌.md", "pages/Tweet%3A Tweets From an Actual Dog.md", "pages/Book%3A Sycamore Row.md", "pages/Tweet%3A Tweets From Andromeda Yelton.md", "pages/Podcast%3A 517- The Divided Dial.md", "pages/Tweet%3A Tweets From Eberhard Wolff.md", "pages/Tweet%3A Tweets From Joshua McKenty.md", "pages/Tweet%3A Tweets From Igal Tabachnik.md", "pages/Tweet%3A Tweets From Grady Booch.md", "pages/Tweet%3A Tweets From Zara Rahim.md", "pages/Tweet%3A Tweets From Michael Ordoña.md", "pages/Tweet%3A Tweets From Cal Ursu.md", "pages/Tweet%3A Tweets From Programming Wisdom.md", "pages/Tweet%3A Tweets From Tom Eastman.md", "pages/Tweet%3A Tweets from kitze 🚀.md", "pages/Tweet%3A Tweets from nader (🧱, 🚀) %7C nader.lens.md", "pages/Tweet%3A Tweets From Petter Eriksson.md", "pages/Tweet%3A Tweets From Vintage Los Angeles.md", "pages/Tweet%3A Tweets From Adam Parkhomenko.md", "pages/Tweet%3A Tweets From 🧹HEX THE PATRIARCHY🧹.md", "pages/Tweet%3A Tweets From Nate Schutta.md", "pages/Tweet%3A Tweets From OPEN SOURCE HULK.md", "pages/Tweet%3A Tweets From WSB-TV.md", "pages/Tweet%3A Tweets From Earthling.md", "pages/Book%3A The 10%25 Entrepreneur.md", "pages/Tweet%3A Tweets From Steve Smith.md", "pages/Tweet%3A Tweets From Matt Secoske.md", "pages/Tweet%3A Tweets From Christina Rotondo.md", "pages/Tweet%3A Tweets from muneeb.btc.md", "pages/Tweet%3A Tweets From 🌷.md", "pages/Tweet%3A Tweets From Daniel Rourke 📉.md", "pages/Tweet%3A Tweets From Matthew A. Cherry.md", "pages/Book%3A Learning Domain-Driven Design.md", "pages/Tweet%3A Tweets from Aadit Sheth.md", "pages/Tweet%3A Tweets From Andy.md", "pages/Tweet%3A Tweets From Meredith Frost.md", "pages/Tweet%3A Tweets From Purism.md", "pages/Tweet%3A Tweets From J-L Cauvin.md", "pages/Tweet%3A Tweets From Alex Ellis.md", "pages/Tweet%3A Tweets From Sean Bartley.md", "pages/Tweet%3A Tweets from Hacker News Bot.md", "pages/Tweet%3A Tweets From Martin Kove.md", "pages/Tweet%3A Tweets From Brandon C. Thomas.md", "pages/Tweet%3A Tweets From Sarah Silverman.md", "pages/Tweet%3A Tweets From Shreyas Doshi.md", "pages/Tweet%3A Tweets From Public Citizen.md"]
+08:38:56.254 › get 100 remote files
+08:38:56.934 › download progress: 100% 1153/1153 "pages/Tweet%3A Tweets From Brandon C. Thomas.md"
+08:38:56.942 › download progress: 100% 1133/1133 "pages/Book%3A The 10%25 Entrepreneur.md"
+08:38:56.943 › download progress: 100% 1068/1068 "pages/Tweet%3A Tweets From @Mikko.md"
+08:38:56.943 › download progress: 100% 999/999 "pages/Tweet%3A Tweets From the West Wing Gifs.md"
+08:38:56.964 › download progress: 100% 1149/1149 "pages/Tweet%3A Tweets From J-L Cauvin.md"
+08:38:56.964 › download progress: 100% 991/991 "pages/Tweet%3A Tweets From JT Perry.md"
+08:38:56.964 › download progress: 100% 1072/1072 "pages/Tweet%3A Tweets From Praise & Worship God!.md"
+08:38:56.964 › download progress: 100% 1113/1113 "pages/Tweet%3A Tweets From Tom Eastman.md"
+08:38:56.965 › download progress: 100% 1088/1088 "pages/Tweet%3A Tweets from Jason Yip (@jchyip@mastodon.online).md"
+08:38:56.965 › download progress: 100% 1072/1072 "pages/Tweet%3A Tweets From Rose W.md"
+08:38:56.965 › download progress: 100% 1003/1003 "pages/Article%3A Chaos Engineering%3A Why the Label Matters.md"
+08:38:56.965 › download progress: 100% 1092/1092 "pages/Tweet%3A Tweets From Nat Pryce.md"
+08:38:56.965 › download progress: 100% 1088/1088 "pages/Tweet%3A Tweets From CB.md"
+08:38:56.965 › download progress: 100% 1149/1149 "pages/Tweet%3A Tweets From Sean Bartley.md"
+08:38:56.965 › download progress: 100% 1108/1108 "pages/Tweet%3A Tweets From Cal Ursu.md"
+08:38:56.966 › download progress: 100% 1048/1048 "pages/Tweet%3A Tweets From Jesse McLaren.md"
+08:38:56.966 › download progress: 100% 1125/1125 "pages/Tweet%3A Tweets From Nate Schutta.md"
+08:38:56.966 › download progress: 100% 1104/1104 "pages/Tweet%3A Tweets From Joshua McKenty.md"
+08:38:56.966 › download progress: 100% 1000/1000 "pages/Tweet%3A How the Universe Works P....md"
+08:38:56.966 › download progress: 100% 1096/1096 "pages/Tweet%3A Tweets From Kevin Klauer DO, EJD.md"
+08:38:56.966 › download progress: 34% 373/1068 "pages/Tweet%3A Tweets From Helen 侯-Sandí.md"
+08:38:56.966 › download progress: 100% 1068/1068 "pages/Tweet%3A Tweets From Helen 侯-Sandí.md"
+08:38:56.966 › download progress: 100% 1092/1092 "pages/Tweet%3A Tweets from Gena Ruocco Thomas, MID {she%2Fher}.md"
+08:38:56.967 › download progress: 100% 958/958 "pages/Article%3A Cloud Native Part 5%3A Microservices.md"
+08:38:56.967 › download progress: 100% 1133/1133 "pages/Tweet%3A Tweets From Steve Smith.md"
+08:38:56.967 › download progress: 100% 1133/1133 "pages/Tweet%3A Tweets From WSB-TV.md"
+08:38:56.967 › download progress: 100% 1043/1043 "pages/Tweet%3A Tweets From Daniel Bryant.md"
+08:38:56.967 › download progress: 100% 1072/1072 "pages/Tweet%3A What Is the Best Article....md"
+08:38:56.976 › download progress: 100% 1092/1092 "pages/Tweet%3A Tweets From Toronto Raptors.md"
+08:38:56.976 › download progress: 100% 1108/1108 "pages/Tweet%3A Tweets From Grady Booch.md"
+08:38:56.977 › download progress: 100% 1015/1015 "pages/Tweet%3A Tweets From Jordan Peele.md"
+08:38:56.977 › download progress: 100% 1137/1137 "pages/Tweet%3A Tweets from muneeb.btc.md"
+08:38:56.977 › download progress: 100% 1096/1096 "pages/Tweet%3A Tweets From Lecrae.md"
+08:38:56.977 › download progress: 100% 1149/1149 "pages/Tweet%3A Tweets From Andy.md"
+08:38:56.977 › download progress: 100% 1153/1153 "pages/Tweet%3A Tweets from Hacker News Bot.md"
+08:38:56.977 › download progress: 100% 1043/1043 "pages/Tweet%3A Tweets From Ryan Breslow 🕺.md"
+08:38:56.977 › download progress: 100% 1108/1108 "pages/Tweet%3A Tweets From Zara Rahim.md"
+08:38:57.004 › download progress: 100% 1121/1121 "pages/Tweet%3A Tweets From Adam Parkhomenko.md"
+08:38:57.005 › download progress: 100% 1064/1064 "pages/Tweet%3A Tweets From James Ward.md"
+08:38:57.005 › download progress: 100% 1015/1015 "pages/Tweet%3A Tweets From I Am Shaun..md"
+08:38:57.005 › download progress: 100% 1088/1088 "pages/Tweet%3A Tweets From Bruce Lawson.md"
+08:38:57.005 › download progress: 100% 897/897 "pages/Book%3A Programming WebAssembly With Rust.md"
+08:38:57.005 › download progress: 100% 1133/1133 "pages/Tweet%3A Tweets From Earthling.md"
+08:38:57.005 › download progress: 100% 1052/1052 "pages/Tweet%3A Tweets From Blake Azevedo.md"
+08:38:57.006 › download progress: 100% 1060/1060 "pages/Tweet%3A Tweets From Jim Park🏀🌌.md"
+08:38:57.006 › download progress: 100% 950/950 "pages/Tweet%3A Tweets From Swear Trek.md"
+08:38:57.006 › download progress: 100% 1137/1137 "pages/Tweet%3A Tweets From Matt Secoske.md"
+08:38:57.006 › download progress: 100% 1100/1100 "pages/Tweet%3A Tweets From Justin Gehtland.md"
+08:38:57.006 › download progress: 100% 1117/1117 "pages/Tweet%3A Tweets from nader (🧱, 🚀) %7C nader.lens.md"
+08:38:57.006 › download progress: 100% 1129/1129 "pages/Tweet%3A Tweets From OPEN SOURCE HULK.md"
+08:38:57.006 › download progress: 100% 1104/1104 "pages/Tweet%3A Tweets From Igal Tabachnik.md"
+08:38:57.007 › download progress: 100% 1056/1056 "pages/Tweet%3A Tweets From Shane Parrish.md"
+08:38:57.007 › download progress: 100% 1068/1068 "pages/Tweet%3A Tweets From Stephen Colbert.md"
+08:38:57.007 › download progress: 100% 1100/1100 "pages/Tweet%3A Tweets From BM 🍌.md"
+08:38:57.007 › download progress: 100% 1064/1064 "pages/Tweet%3A Tweets From Justin Garrison.md"
+08:38:57.007 › download progress: 100% 1039/1039 "pages/Tweet%3A Tweets From Guna.md"
+08:38:57.007 › download progress: 100% 1100/1100 "pages/Tweet%3A Tweets From an Actual Dog.md"
+08:38:57.007 › download progress: 100% 1096/1096 "pages/Tweet%3A Tweets From Teenage Stepdad.md"
+08:38:57.008 › download progress: 100% 1149/1149 "pages/Tweet%3A Tweets From Alex Ellis.md"
+08:38:57.008 › download progress: 100% 1141/1141 "pages/Book%3A Learning Domain-Driven Design.md"
+08:38:57.008 › download progress: 100% 1076/1076 "pages/Tweet%3A Tweets From Ship 30 for 30.md"
+08:38:57.008 › download progress: 100% 1149/1149 "pages/Tweet%3A Tweets From Meredith Frost.md"
+08:38:57.008 › download progress: 100% 1104/1104 "pages/Podcast%3A 517- The Divided Dial.md"
+08:38:57.008 › download progress: 100% 1100/1100 "pages/Book%3A Sycamore Row.md"
+08:38:57.008 › download progress: 100% 1108/1108 "pages/Tweet%3A Tweets From Michael Ordoña.md"
+08:38:57.008 › download progress: 100% 1153/1153 "pages/Tweet%3A Tweets From Martin Kove.md"
+08:38:57.009 › download progress: 100% 1048/1048 "pages/Article%3A Cloud Native Part 3%3A DevOps.md"
+08:38:57.009 › download progress: 100% 1084/1084 "pages/Tweet%3A Tweets From Ichigo Niggasake.md"
+08:38:57.009 › download progress: 100% 1141/1141 "pages/Tweet%3A Tweets From Matthew A. Cherry.md"
+08:38:57.009 › download progress: 100% 1153/1153 "pages/Tweet%3A Tweets From Sarah Silverman.md"
+08:38:57.009 › download progress: 100% 1104/1104 "pages/Tweet%3A Tweets From Eberhard Wolff.md"
+08:38:57.009 › download progress: 100% 1117/1117 "pages/Tweet%3A Tweets From Vintage Los Angeles.md"
+08:38:57.009 › download progress: 100% 1108/1108 "pages/Tweet%3A Tweets From Programming Wisdom.md"
+08:38:57.009 › download progress: 100% 974/974 "pages/Tweet%3A Tweets From Kyle Kowalski.md"
+08:38:57.010 › download progress: 100% 1080/1080 "pages/Tweet%3A Tweets From Bojan Pancevski.md"
+08:38:57.010 › download progress: 100% 1113/1113 "pages/Tweet%3A Tweets from kitze 🚀.md"
+08:38:57.021 › download progress: 100% 1023/1023 "pages/Tweet%3A Tweets From Colin Rubbert.md"
+08:38:57.021 › download progress: 100% 1153/1153 "pages/Tweet%3A Tweets From Shreyas Doshi.md"
+08:38:57.021 › download progress: 100% 1076/1076 "pages/Tweet%3A Tweets From Christian Nightmares.md"
+08:38:57.022 › download progress: 100% 1027/1027 "pages/Tweet%3A Tweets From Star Wars.md"
+08:38:57.022 › download progress: 100% 1080/1080 "pages/Tweet%3A Tweets From Abby Fuller.md"
+08:38:57.022 › download progress: 100% 1141/1141 "pages/Tweet%3A Tweets From Daniel Rourke 📉.md"
+08:38:57.022 › download progress: 100% 983/983 "pages/Tweet%3A Tweets From the Cyber.md"
+08:38:57.022 › download progress: 100% 853/853 "pages/Tweet%3A Tweets From Replit ⠕.md"
+08:38:57.022 › download progress: 100% 1149/1149 "pages/Tweet%3A Tweets From Purism.md"
+08:38:57.022 › download progress: 100% 1137/1137 "pages/Tweet%3A Tweets From Christina Rotondo.md"
+08:38:57.040 › download progress: 100% 1157/1157 "pages/Tweet%3A Tweets From Public Citizen.md"
+08:38:57.040 › download progress: 100% 1145/1145 "pages/Tweet%3A Tweets from Aadit Sheth.md"
+08:38:57.040 › download progress: 100% 1068/1068 "pages/Tweet%3A Tweets From Kunal Shah.md"
+08:38:57.040 › download progress: 100% 1068/1068 "pages/Tweet%3A Tweets From 🇵🇷EVE🇵🇷.md"
+08:38:57.040 › download progress: 100% 1064/1064 "pages/Tweet%3A Tweets From Maximum Von SideEye.md"
+08:38:57.041 › download progress: 100% 1096/1096 "pages/Tweet%3A Tweets From Navalism.md"
+08:38:57.041 › download progress: 100% 1050/1050 "pages/Tweet%3A Tweets from ruchowdh@mastodon.social.md"
+08:38:57.041 › download progress: 100% 1056/1056 "pages/Tweet%3A Tweets From Fermyon.md"
+08:38:57.048 › download progress: 100% 1104/1104 "pages/Tweet%3A Tweets From Andromeda Yelton.md"
+08:38:57.048 › download progress: 100% 1072/1072 "pages/Tweet%3A Tweets From Danny Deraney.md"
+08:38:57.048 › download progress: 100% 1141/1141 "pages/Tweet%3A Tweets From 🌷.md"
+08:38:57.064 › download progress: 100% 1117/1117 "pages/Tweet%3A Tweets From Petter Eriksson.md"
+08:38:57.074 › download progress: 100% 1056/1056 "pages/Tweet%3A Tweets From James Wickett.md"
+08:38:57.075 › download progress: 100% 1080/1080 "pages/Tweet%3A Tweets From Jason J Hunter.md"
+08:38:57.180 › download progress: 100% 1125/1125 "pages/Tweet%3A Tweets From 🧹HEX THE PATRIARCHY🧹.md"
+08:38:57.305 › cancelling all request
+08:38:57.306 › update local files: ["pages/Tweet%3A Tweets From William Pietri.md", "pages/Tweet%3A Tweets From Pawel Lorkiewicz 👨\u{200d}🔬🏳\u{200d}🌈.md", "pages/Tweet%3A Tweets From @Akashtv1Soni.md", "pages/Tweet%3A Tweets From Jani Eväkallio.md", "pages/Tweet%3A Tweets From Vicki Boykis.md", "pages/Tweet%3A Tweets from americas next top bottom.md", "pages/Tweet%3A Tweets from Charles Oliver Nutter @headius@mastodon.social.md", "pages/Tweet%3A Tweets From Rachel Held Evans.md", "pages/Tweet%3A Tweets from Brian O'Connor.md", "pages/Tweet%3A Tweets From Dominica DeGrandis.md", "pages/Tweet%3A Tweets from Santiago.md", "pages/Tweet%3A Tweets From Chris Heilmann.md", "pages/Tweet%3A Tweets From Chaz Hutton.md", "pages/Tweet%3A Tweets from Alexander Leirvåg.md", "pages/Tweet%3A Tweets From Armon Dadgar.md", "pages/Tweet%3A Tweets From Khalea Underwood.md", "pages/Tweet%3A Tweets From Steve Kamb.md", "pages/Tweet%3A Tweets From Ola Bini.md", "pages/Tweet%3A Tweets From 🍊🏴\u{200d}☠\u{fe0f}🍊.md", "pages/Tweet%3A Tweets from Jacob Espinoza.md", "pages/Tweet%3A Tweets From ⋆ 𝒩𝒾𝓈𝒽 ⁷ PLS Read 📌..md", "pages/Tweet%3A Tweets From Breeana Flannery.md", "pages/Tweet%3A Tweets From Bridget Kromhout.md", "pages/Tweet%3A Tweets From Ben Stopford.md", "pages/Tweet%3A Tweets from Ian Coldwater.md", "pages/Tweet%3A Tweets from Mac.md", "pages/Tweet%3A Tweets From Danny Tenenbaum.md", "pages/Tweet%3A Tweets from Joshua Lisec %7C The Ghostwriter.md", "pages/Tweet%3A Tweets From Shahed Khan.md", "pages/Tweet%3A Tweets From Danté Stewart.md", "pages/Tweet%3A Tweets From Scott W. Ambler.md", "pages/Tweet%3A Tweets From Abe Asfaw.md", "pages/Tweet%3A Tweets From Badnima.md", "pages/Tweet%3A Tweets From the Americans.md", "pages/Tweet%3A Tweets From Hrishikesh Hirway.md", "pages/Book%3A Lucifer's Hammer.md", "pages/Book%3A Hacking.md", "pages/Tweet%3A Tweets From Ken Kousen.md", "pages/Tweet%3A Tweets From Rev. Rob Lee.md", "pages/Tweet%3A Tweets From Henry Scoles.md", "pages/Tweet%3A Tweets From Kris Nóva.md", "pages/Tweet%3A Tweets From John Wildman.md", "pages/Tweet%3A Tweets from René 🟥 @rcmoya@mastodon.online.md", "pages/Tweet%3A Tweets from Noah Smith 🐇🇺🇦.md", "pages/Tweet%3A Tweets From Renaud.lienhart(_%3A) Async Throws.md", "pages/Tweet%3A Tweets From Simon Rohrer.md", "pages/Tweet%3A Tweets From Bletchley Punk Is a Fullmetal Engineer.md", "pages/Tweet%3A Tweets From J. Graeme Noseworthy 🇺🇸 🇨🇦.md", "pages/Tweet%3A Tweets From Lady Cybele.md", "pages/Tweet%3A Tweets From monkeyUser.md", "pages/Tweet%3A Tweets From Paula Kennedy.md", "pages/Tweet%3A Tweets from Viktor Gamov 🦍 at %23reinvent.md", "pages/Tweet%3A Tweets From Lauren Cooney✨.md", "pages/Tweet%3A Tweets from Alexandra.md", "pages/Tweet%3A Tweets From Urban Art.md", "pages/Book%3A Kill Decision.md", "pages/Tweet%3A Tweets From Michael Dell.md", "pages/Tweet%3A Tweets From Guillermo Ruiz.md", "pages/Tweet%3A Tweets From Ari Paparo.md", "pages/Tweet%3A Tweets From Ben Tossell.md", "pages/Tweet%3A Tweets From Michael Rudzena.md", "pages/Tweet%3A Tweets From Excel Ranger.md", "journals/2023_02_04.md", "pages/Tweet%3A Tweets From Victorious.md", "pages/Tweet%3A Tweets from Chas (Lamarckian explosion) Emerick.md", "pages/Tweet%3A Tweets From Richard I. Cook.md", "pages/Book%3A BrainWeb.md", "pages/Tweet%3A Tweets From Obi Does.md", "pages/Tweet%3A Tweets From Andrew.md", "pages/Book%3A Pull.md", "pages/Tweet%3A Tweets From ▁ ▄ⓟⓗⓡⓔⓒⓚ▄ ▁.md", "pages/Tweet%3A Tweets from protect kylie at all costs.md", "pages/Article%3A Unbundling Tools for Thought.md", "pages/Tweet%3A Tweets From Julia Ferraioli.md", "pages/Tweet%3A Tweets From GSR.md", "pages/Tweet%3A Tweets From turnoff.us.md", "pages/Tweet%3A Tweets From Mel Conway.md", "pages/Book%3A Affirming the Apostles' Creed.md", "pages/Tweet%3A Tweets From Colin Riddell 🚀.md", "pages/Tweet%3A Tweets From Holly Brockwell.md", "pages/Tweet%3A Tweets From Inspiring Content 🧠.md", "pages/Tweet%3A Tweets From Kirsten Powers.md", "pages/Tweet%3A Tweets From Sabrina Imbler.md", "pages/Tweet%3A Tweets From Ty Smith.md", "pages/Tweet%3A Tweets From Katie Moussouris (She%2FHer) Is Getting Vaccinated.md", "pages/Tweet%3A Tweets from Trung Phan.md", "pages/Tweet%3A Tweets from Hillel @ buttondown.email%2Fhillelwayne.md", "pages/Tweet%3A Tweets From Marti.md", "pages/Book%3A iWoz.md", "pages/Tweet%3A Tweets From Jenn Frazin.md", "pages/Tweet%3A Tweets From Sam Connelly.md", "pages/Tweet%3A Tweets From Dinosaur Dracula 🦖🧛\u{200d}♂\u{fe0f}.md", "pages/Tweet%3A Tweets From Judith Weisenfeld.md", "pages/Tweet%3A Tweets From Alessandra Sierra.md", "pages/Tweet%3A Tweets From NPR.md", "pages/Tweet%3A Tweets From 🔎Julia Evans🔍.md", "pages/Tweet%3A Tweets From Microsoft Channel 9.md", "pages/Tweet%3A Tweets From Tammy Bryant Butow ⚓.md", "pages/Book%3A The Category Design Toolkit.md", "pages/Tweet%3A Tweets From Neilperkin.md"]
+08:38:57.960 › get 100 remote files
+08:38:58.443 › download progress: 100% 1222/1222 "pages/Tweet%3A Tweets From turnoff.us.md"
+08:38:58.448 › download progress: 100% 1230/1230 "pages/Tweet%3A Tweets from Hillel @ buttondown.email%2Fhillelwayne.md"
+08:38:58.462 › download progress: 100% 1210/1210 "pages/Tweet%3A Tweets From Excel Ranger.md"
+08:38:58.462 › download progress: 100% 1169/1169 "pages/Tweet%3A Tweets From Chris Heilmann.md"
+08:38:58.463 › download progress: 100% 1186/1186 "pages/Tweet%3A Tweets From Badnima.md"
+08:38:58.463 › download progress: 100% 1218/1218 "pages/Tweet%3A Tweets From ▁ ▄ⓟⓗⓡⓔⓒⓚ▄ ▁.md"
+08:38:58.467 › download progress: 100% 1226/1226 "pages/Tweet%3A Tweets From Inspiring Content 🧠.md"
+08:38:58.483 › download progress: 100% 1169/1169 "pages/Tweet%3A Tweets From Armon Dadgar.md"
+08:38:58.484 › download progress: 100% 1182/1182 "pages/Tweet%3A Tweets From Shahed Khan.md"
+08:38:58.484 › download progress: 100% 1210/1210 "pages/Tweet%3A Tweets From Ben Tossell.md"
+08:38:58.484 › download progress: 100% 1251/1251 "pages/Tweet%3A Tweets From Neilperkin.md"
+08:38:58.484 › download progress: 100% 1182/1182 "pages/Tweet%3A Tweets from Joshua Lisec %7C The Ghostwriter.md"
+08:38:58.484 › download progress: 100% 1186/1186 "pages/Tweet%3A Tweets From Abe Asfaw.md"
+08:38:58.484 › download progress: 100% 1222/1222 "pages/Tweet%3A Tweets From Holly Brockwell.md"
+08:38:58.484 › download progress: 100% 1222/1222 "pages/Tweet%3A Tweets From Mel Conway.md"
+08:38:58.484 › download progress: 100% 1182/1182 "pages/Tweet%3A Tweets From Danny Tenenbaum.md"
+08:38:58.484 › download progress: 100% 1222/1222 "pages/Tweet%3A Tweets From GSR.md"
+08:38:58.484 › download progress: 100% 1226/1226 "pages/Tweet%3A Tweets From Sabrina Imbler.md"
+08:38:58.491 › download progress: 100% 1214/1214 "pages/Tweet%3A Tweets from Chas (Lamarckian explosion) Emerick.md"
+08:38:58.494 › download progress: 100% 1234/1234 "pages/Tweet%3A Tweets From Dinosaur Dracula 🦖🧛\u{200d}♂\u{fe0f}.md"
+08:38:58.494 › download progress: 100% 1186/1186 "pages/Tweet%3A Tweets From Scott W. Ambler.md"
+08:38:58.494 › download progress: 100% 1173/1173 "pages/Tweet%3A Tweets From ⋆ 𝒩𝒾𝓈𝒽 ⁷ PLS Read 📌..md"
+08:38:58.494 › download progress: 100% 1194/1194 "pages/Tweet%3A Tweets From Rev. Rob Lee.md"
+08:38:58.495 › download progress: 100% 1238/1238 "pages/Tweet%3A Tweets From Alessandra Sierra.md"
+08:38:58.495 › download progress: 100% 1214/1214 "pages/Book%3A BrainWeb.md"
+08:38:58.495 › download progress: 100% 1198/1198 "pages/Tweet%3A Tweets From J. Graeme Noseworthy 🇺🇸 🇨🇦.md"
+08:38:58.495 › download progress: 100% 1247/1247 "pages/Tweet%3A Tweets From Microsoft Channel 9.md"
+08:38:58.496 › download progress: 100% 1198/1198 "pages/Tweet%3A Tweets From Lady Cybele.md"
+08:38:58.531 › download progress: 100% 1173/1173 "pages/Tweet%3A Tweets From Breeana Flannery.md"
+08:38:58.531 › download progress: 100% 1226/1226 "pages/Tweet%3A Tweets from Trung Phan.md"
+08:38:58.532 › download progress: 100% 1169/1169 "pages/Tweet%3A Tweets from Santiago.md"
+08:38:58.532 › download progress: 100% 1222/1222 "pages/Tweet%3A Tweets From Julia Ferraioli.md"
+08:38:58.532 › download progress: 100% 1243/1243 "pages/Tweet%3A Tweets From 🔎Julia Evans🔍.md"
+08:38:58.532 › download progress: 100% 1206/1206 "pages/Tweet%3A Tweets From Lauren Cooney✨.md"
+08:38:58.532 › download progress: 100% 1234/1234 "pages/Tweet%3A Tweets From Jenn Frazin.md"
+08:38:58.532 › download progress: 100% 1226/1226 "pages/Tweet%3A Tweets From Kirsten Powers.md"
+08:38:58.533 › download progress: 100% 1202/1202 "pages/Tweet%3A Tweets From Paula Kennedy.md"
+08:38:58.533 › download progress: 100% 1165/1165 "pages/Tweet%3A Tweets From Vicki Boykis.md"
+08:38:58.533 › download progress: 100% 1169/1169 "pages/Tweet%3A Tweets From Steve Kamb.md"
+08:38:58.533 › download progress: 100% 1206/1206 "pages/Tweet%3A Tweets From Guillermo Ruiz.md"
+08:38:58.533 › download progress: 100% 1238/1238 "pages/Tweet%3A Tweets From Judith Weisenfeld.md"
+08:38:58.533 › download progress: 100% 1190/1190 "pages/Book%3A Lucifer's Hammer.md"
+08:38:58.533 › download progress: 100% 1206/1206 "pages/Tweet%3A Tweets from Alexandra.md"
+08:38:58.533 › download progress: 100% 1206/1206 "pages/Tweet%3A Tweets From Michael Dell.md"
+08:38:58.534 › download progress: 100% 1226/1226 "pages/Tweet%3A Tweets From Ty Smith.md"
+08:38:58.534 › download progress: 100% 1247/1247 "pages/Tweet%3A Tweets From Tammy Bryant Butow ⚓.md"
+08:38:58.534 › download progress: 100% 1220/1220 "pages/Article%3A Unbundling Tools for Thought.md"
+08:38:58.534 › download progress: 100% 1198/1198 "pages/Tweet%3A Tweets From Bletchley Punk Is a Fullmetal Engineer.md"
+08:38:58.534 › download progress: 100% 1169/1169 "pages/Tweet%3A Tweets From Khalea Underwood.md"
+08:38:58.534 › download progress: 100% 1247/1247 "pages/Book%3A The Category Design Toolkit.md"
+08:38:58.534 › download progress: 100% 1173/1173 "pages/Tweet%3A Tweets From 🍊🏴\u{200d}☠\u{fe0f}🍊.md"
+08:38:58.534 › download progress: 100% 1173/1173 "pages/Tweet%3A Tweets from Jacob Espinoza.md"
+08:38:58.534 › download progress: 100% 1214/1214 "pages/Tweet%3A Tweets From Richard I. Cook.md"
+08:38:58.535 › download progress: 100% 1178/1178 "pages/Tweet%3A Tweets From Ben Stopford.md"
+08:38:58.535 › download progress: 100% 1218/1218 "pages/Tweet%3A Tweets from protect kylie at all costs.md"
+08:38:58.535 › download progress: 100% 1198/1198 "pages/Tweet%3A Tweets From Renaud.lienhart(_%3A) Async Throws.md"
+08:38:58.535 › download progress: 100% 1211/1211 "journals/2023_02_04.md"
+08:38:58.535 › download progress: 100% 1173/1173 "pages/Tweet%3A Tweets From Ola Bini.md"
+08:38:58.535 › download progress: 100% 1186/1186 "pages/Tweet%3A Tweets From the Americans.md"
+08:38:58.535 › download progress: 100% 1206/1206 "pages/Book%3A Kill Decision.md"
+08:38:58.535 › download progress: 100% 1198/1198 "pages/Tweet%3A Tweets From Simon Rohrer.md"
+08:38:58.536 › download progress: 100% 1202/1202 "pages/Tweet%3A Tweets From monkeyUser.md"
+08:38:58.536 › download progress: 100% 1178/1178 "pages/Tweet%3A Tweets from Mac.md"
+08:38:58.536 › download progress: 100% 1234/1234 "pages/Book%3A iWoz.md"
+08:38:58.536 › download progress: 100% 1218/1218 "pages/Book%3A Pull.md"
+08:38:58.536 › download progress: 100% 1157/1157 "pages/Tweet%3A Tweets From William Pietri.md"
+08:38:58.536 › download progress: 100% 1210/1210 "pages/Tweet%3A Tweets From Ari Paparo.md"
+08:38:58.536 › download progress: 100% 1210/1210 "pages/Tweet%3A Tweets From Michael Rudzena.md"
+08:38:58.536 › download progress: 100% 1182/1182 "pages/Tweet%3A Tweets From Danté Stewart.md"
+08:38:58.537 › download progress: 100% 1169/1169 "pages/Tweet%3A Tweets From Chaz Hutton.md"
+08:38:58.537 › download progress: 100% 1226/1226 "pages/Tweet%3A Tweets From Katie Moussouris (She%2FHer) Is Getting Vaccinated.md"
+08:38:58.537 › download progress: 100% 1161/1161 "pages/Tweet%3A Tweets From Pawel Lorkiewicz 👨\u{200d}🔬🏳\u{200d}🌈.md"
+08:38:58.537 › download progress: 31% 372/1194 "pages/Tweet%3A Tweets From Ken Kousen.md"
+08:38:58.537 › download progress: 100% 1194/1194 "pages/Tweet%3A Tweets From Ken Kousen.md"
+08:38:58.537 › download progress: 100% 1222/1222 "pages/Tweet%3A Tweets From Colin Riddell 🚀.md"
+08:38:58.538 › download progress: 100% 1161/1161 "pages/Tweet%3A Tweets From Jani Eväkallio.md"
+08:38:58.538 › download progress: 100% 1161/1161 "pages/Tweet%3A Tweets From @Akashtv1Soni.md"
+08:38:58.551 › download progress: 100% 1206/1206 "pages/Tweet%3A Tweets From Urban Art.md"
+08:38:58.552 › download progress: 100% 1198/1198 "pages/Tweet%3A Tweets from Noah Smith 🐇🇺🇦.md"
+08:38:58.552 › download progress: 100% 1165/1165 "pages/Tweet%3A Tweets From Rachel Held Evans.md"
+08:38:58.552 › download progress: 100% 1194/1194 "pages/Book%3A Hacking.md"
+08:38:58.552 › download progress: 100% 1218/1218 "pages/Tweet%3A Tweets From Andrew.md"
+08:38:58.552 › download progress: 100% 1194/1194 "pages/Tweet%3A Tweets From Henry Scoles.md"
+08:38:58.583 › download progress: 100% 1214/1214 "pages/Tweet%3A Tweets From Victorious.md"
+08:38:58.584 › download progress: 100% 1234/1234 "pages/Tweet%3A Tweets From Sam Connelly.md"
+08:38:58.584 › download progress: 100% 1194/1194 "pages/Tweet%3A Tweets From Kris Nóva.md"
+08:38:58.584 › download progress: 100% 1206/1206 "pages/Tweet%3A Tweets from Viktor Gamov 🦍 at %23reinvent.md"
+08:38:58.584 › download progress: 100% 1169/1169 "pages/Tweet%3A Tweets from Alexander Leirvåg.md"
+08:38:58.584 › download progress: 100% 1194/1194 "pages/Tweet%3A Tweets from René 🟥 @rcmoya@mastodon.online.md"
+08:38:58.584 › download progress: 100% 1222/1222 "pages/Book%3A Affirming the Apostles' Creed.md"
+08:38:58.584 › download progress: 100% 1169/1169 "pages/Tweet%3A Tweets From Dominica DeGrandis.md"
+08:38:58.584 › download progress: 100% 1194/1194 "pages/Tweet%3A Tweets From John Wildman.md"
+08:38:58.584 › download progress: 100% 1214/1214 "pages/Tweet%3A Tweets From Obi Does.md"
+08:38:58.584 › download progress: 100% 1238/1238 "pages/Tweet%3A Tweets From NPR.md"
+08:38:58.584 › download progress: 100% 1165/1165 "pages/Tweet%3A Tweets from Charles Oliver Nutter @headius@mastodon.social.md"
+08:38:58.584 › download progress: 30% 373/1230 "pages/Tweet%3A Tweets From Marti.md"
+08:38:58.585 › download progress: 100% 1230/1230 "pages/Tweet%3A Tweets From Marti.md"
+08:38:58.598 › download progress: 100% 1186/1186 "pages/Tweet%3A Tweets From Hrishikesh Hirway.md"
+08:38:58.599 › download progress: 100% 1169/1169 "pages/Tweet%3A Tweets from Brian O'Connor.md"
+08:38:58.627 › download progress: 100% 1165/1165 "pages/Tweet%3A Tweets from americas next top bottom.md"
+08:38:58.676 › download progress: 100% 1178/1178 "pages/Tweet%3A Tweets from Ian Coldwater.md"
+08:38:58.712 › download progress: 100% 1173/1173 "pages/Tweet%3A Tweets From Bridget Kromhout.md"
+08:38:58.899 › cancelling all request
+08:38:58.902 › update local files: ["pages/Tweet%3A Tweets From Marc Brooker.md", "pages/Tweet%3A Tweets From Mads Brodt.md", "pages/Tweet%3A Tweets From Tracy Rotton.md", "pages/Tweet%3A Tweets From Derrick Harris.md", "pages/Tweet%3A Tweets From Chris Coyier.md", "pages/Podcast%3A Episode 225 —  Daniel Kirk - Romans Isn’t What You Think It Is.md", "pages/Tweet%3A Tweets From Daniel Powell.md", "pages/Tweet%3A Tweets From Geoff Manaugh.md", "pages/Tweet%3A Tweets From the Root.md", "pages/Tweet%3A Tweets From Adrian Colyer.md", "pages/Tweet%3A Tweets from DJB.md", "pages/Tweet%3A Tweets From Chad Underwood.md", "pages/Tweet%3A Tweets From Diana Butler Bass.md", "pages/Tweet%3A Tweets From John Bates.md", "pages/Tweet%3A Tweets From Abraham Marín-Pérez.md", "pages/Tweet%3A Tweets From Nora Jones.md", "pages/Book%3A The Shallows.md", "pages/Tweet%3A Tweets From Absurdistwords.md", "pages/Tweet%3A Tweets From Claudia %7C Writing Cheat Codes.md", "pages/Tweet%3A Tweets From Ashley Stroehlein.md", "pages/Tweet%3A Tweets From THE INSPIRING CONTENT™ %7C It's All About Mindset🧠.md", "pages/Tweet%3A Tweets From John Furrier.md", "pages/Tweet%3A Tweets From Ekaterina Budnikov.md", "pages/Tweet%3A Tweets From Richard Seroter.md", "pages/Tweet%3A Tweets From MarcZenn.md", "pages/Tweet%3A Tweets From Ult. Hack. Keyboard.md", "pages/Tweet%3A Tweets From Michael Sitver 🇺🇸.md", "pages/Book%3A Desperation Road.md", "pages/Tweet%3A “Two Is Better Than Zero....md", "pages/Tweet%3A Tweets From Rohit Kelapure.md", "pages/Book%3A Damoren.md", "pages/Tweet%3A Tweets From Almaqah.md", "pages/Tweet%3A Tweets From RS Archer.md", "pages/Tweet%3A Tweets From Sabine Hossenfelder.md", "pages/Tweet%3A Tweets From Mississippi Free Press.md", "pages/Tweet%3A Tweets From the Hollywood Reporter.md", "pages/Tweet%3A Tweets From LeVar Burton.md", "pages/Tweet%3A Tweets From Dr. Gernot Starke 🇺🇦.md", "pages/Tweet%3A Tweets From Zuhair.md", "pages/Tweet%3A Tweets From Janelle Shane.md", "pages/Tweet%3A Tweets From Lin-Manuel Miranda.md", "pages/Tweet%3A Tweets From Vaughn Vernon.md", "pages/Tweet%3A Tweets From 𝐵𝑒𝓉𝓉𝓎 𝐵𝑜𝑜𝓅 🇺🇦.md", "pages/Tweet%3A Tweets from Hypefury - Simple audience building.md", "pages/Tweet%3A Tweets from James Shore @jamesshore@mastodon.online.md", "pages/Tweet%3A Tweets From Fresco.md", "pages/Tweet%3A Tweets From Brandon Friedman.md", "pages/Tweet%3A Tweets From Jeff Sussna - Customer-Centered Delivery Coach.md", "pages/Tweet%3A Tweets From Thoughts of Dog®.md", "pages/Tweet%3A Tweets From Science Girlfriend 🧑🏻\u{200d}🔬🌈.md", "pages/Tweet%3A Tweets From Jonathan Howard.md", "pages/Tweet%3A Tweets From Max Blau.md", "pages/Book%3A Build Websites With Hugo.md", "pages/Book%3A Think.md", "pages/Tweet%3A Tweets From Richard Schiff.md", "pages/Tweet%3A Tweets From Katie Hays.md", "pages/Tweet%3A Tweets From Natasha Huckfield.md", "pages/Tweet%3A Tweets From Charles Chiu.md", "pages/Article%3A Chaos Engineering Upgraded.md", "pages/Book%3A The Art of War.md", "pages/Tweet%3A Tweets from Miguel Piedrafita.md", "pages/Article%3A Introduction to Modern Network Load Balancing and Proxying.md", "pages/Tweet%3A Tweets from Dr Kate Compton %23BotGirlSummer.md", "pages/Article%3A Evolutionary Architecture.md", "pages/Tweet%3A Tweets From James Merritt.md", "pages/Tweet%3A Tweets From One Perfect Shot.md", "pages/Tweet%3A Tweets from Josh 🚀.md", "pages/Tweet%3A Tweets From Thorsten Brunzendorf.md", "pages/Tweet%3A Tweets From Du.md", "pages/Tweet%3A Tweets from mathiasverraes everywhere.md", "pages/Tweet%3A Tweets From Monodraw.md", "pages/Tweet%3A Tweets From Andrew Certain.md", "pages/Tweet%3A Tweets From Skoog.md", "pages/Tweet%3A Tweets from Jaana Dogan ヤナ ドガン.md", "pages/Tweet%3A Tweets From Christine Hall.md", "pages/Tweet%3A Tweets From Brian Dussault.md", "pages/Tweet%3A Tweets from 🧑\u{200d}🌾 Matteo Cervelli %7C The People Gardener 🚢.md", "pages/Tweet%3A Tweets From James Juanillo.md", "pages/Tweet%3A Tweets from Salman 🦊.md", "pages/Tweet%3A Tweets From Rob From Online (Unofficial) 📱.md", "pages/Tweet%3A Tweets From Colm MacCárthaigh.md", "pages/Article%3A Before Naming Your Business, Read This..md", "pages/Tweet%3A Tweets From Bitter Southerner.md", "pages/Tweet%3A Tweets From AdaptiveCapacityLabs.md", "pages/Tweet%3A Tweets from Ping-Teng Lin.md", "pages/Tweet%3A Tweets From Chris Aniszczyk.md", "pages/Tweet%3A Tweets From Benjamin Wilms.md", "pages/Tweet%3A Tweets from Arthur Wu.md", "pages/Tweet%3A Tweets From Gerardo Andrade.md", "pages/Tweet%3A Tweets From BBC East Midlands.md", "pages/Tweet%3A Tweets From Antonio.md", "pages/Tweet%3A Tweets From Colette Alexander.md", "pages/Tweet%3A Tweets From Shopify Engineering.md", "pages/Tweet%3A Tweets From API Evangelist.md", "pages/Tweet%3A Tweets From Nagarajan Ramachandran.md", "pages/Tweet%3A Tweets From Mark Burgess.md", "pages/Tweet%3A Tweets From Craig Calcaterra.md", "pages/Article%3A Nobody Wants to Use Software.md", "pages/Tweet%3A Tweets From GeorgiaD.md", "pages/Tweet%3A Tweets from David Nuñez %7C Emerging Tech+Humans.md"]
+08:38:59.627 › get 100 remote files
+08:39:00.332 › download progress: 100% 1299/1299 "pages/Tweet%3A Tweets From Thoughts of Dog®.md"
+08:39:00.333 › download progress: 100% 1336/1336 "pages/Article%3A Before Naming Your Business, Read This..md"
+08:39:00.333 › download progress: 100% 1267/1267 "pages/Tweet%3A Tweets From John Bates.md"
+08:39:00.333 › download progress: 100% 1356/1356 "pages/Tweet%3A Tweets From GeorgiaD.md"
+08:39:00.333 › download progress: 100% 1283/1283 "pages/Tweet%3A Tweets From RS Archer.md"
+08:39:00.333 › download progress: 100% 1312/1312 "pages/Article%3A Chaos Engineering Upgraded.md"
+08:39:00.333 › download progress: 100% 1352/1352 "pages/Tweet%3A Tweets From Mark Burgess.md"
+08:39:00.333 › download progress: 100% 1283/1283 "pages/Book%3A Damoren.md"
+08:39:00.334 › download progress: 28% 373/1312 "pages/Tweet%3A Tweets From Katie Hays.md"
+08:39:00.334 › download progress: 100% 1312/1312 "pages/Tweet%3A Tweets From Katie Hays.md"
+08:39:00.334 › download progress: 100% 1295/1295 "pages/Tweet%3A Tweets from James Shore @jamesshore@mastodon.online.md"
+08:39:00.334 › download progress: 100% 1316/1316 "pages/Book%3A The Art of War.md"
+08:39:00.334 › download progress: 100% 1344/1344 "pages/Tweet%3A Tweets From BBC East Midlands.md"
+08:39:00.334 › download progress: 100% 1283/1283 "pages/Tweet%3A Tweets From Rohit Kelapure.md"
+08:39:00.334 › download progress: 100% 1332/1332 "pages/Tweet%3A Tweets from Salman 🦊.md"
+08:39:00.334 › download progress: 100% 1316/1316 "pages/Tweet%3A Tweets from Dr Kate Compton %23BotGirlSummer.md"
+08:39:00.334 › download progress: 100% 1324/1324 "pages/Tweet%3A Tweets from Jaana Dogan ヤナ ドガン.md"
+08:39:00.334 › download progress: 100% 1356/1356 "pages/Tweet%3A Tweets From Craig Calcaterra.md"
+08:39:00.334 › download progress: 100% 1295/1295 "pages/Tweet%3A Tweets From Brandon Friedman.md"
+08:39:00.334 › download progress: 100% 1336/1336 "pages/Tweet%3A Tweets From AdaptiveCapacityLabs.md"
+08:39:00.335 › download progress: 100% 1308/1308 "pages/Book%3A Think.md"
+08:39:00.335 › download progress: 100% 1267/1267 "pages/Tweet%3A Tweets From Chad Underwood.md"
+08:39:00.335 › download progress: 100% 1295/1295 "pages/Tweet%3A Tweets From 𝐵𝑒𝓉𝓉𝓎 𝐵𝑜𝑜𝓅 🇺🇦.md"
+08:39:00.335 › download progress: 100% 1324/1324 "pages/Tweet%3A Tweets From Andrew Certain.md"
+08:39:00.335 › download progress: 100% 1340/1340 "pages/Tweet%3A Tweets from Arthur Wu.md"
+08:39:00.335 › download progress: 100% 1275/1275 "pages/Tweet%3A Tweets From Richard Seroter.md"
+08:39:00.335 › download progress: 100% 1271/1271 "pages/Tweet%3A Tweets From Claudia %7C Writing Cheat Codes.md"
+08:39:00.335 › download progress: 100% 1308/1308 "pages/Tweet%3A Tweets From Max Blau.md"
+08:39:00.335 › download progress: 100% 1251/1251 "pages/Tweet%3A Tweets From Derrick Harris.md"
+08:39:00.335 › download progress: 100% 1279/1279 "pages/Book%3A Desperation Road.md"
+08:39:00.335 › download progress: 100% 1295/1295 "pages/Tweet%3A Tweets from Hypefury - Simple audience building.md"
+08:39:00.336 › download progress: 100% 1283/1283 "pages/Tweet%3A Tweets From Almaqah.md"
+08:39:00.336 › download progress: 100% 1271/1271 "pages/Tweet%3A Tweets From Ashley Stroehlein.md"
+08:39:00.336 › download progress: 100% 1308/1308 "pages/Book%3A Build Websites With Hugo.md"
+08:39:00.336 › download progress: 100% 1255/1255 "pages/Podcast%3A Episode 225 —  Daniel Kirk - Romans Isn’t What You Think It Is.md"
+08:39:00.336 › download progress: 100% 1267/1267 "pages/Tweet%3A Tweets From Diana Butler Bass.md"
+08:39:00.336 › download progress: 100% 1324/1324 "pages/Tweet%3A Tweets From Skoog.md"
+08:39:00.336 › download progress: 100% 1356/1356 "pages/Tweet%3A Tweets from David Nuñez %7C Emerging Tech+Humans.md"
+08:39:00.336 › download progress: 100% 1287/1287 "pages/Tweet%3A Tweets From Mississippi Free Press.md"
+08:39:00.336 › download progress: 100% 1356/1356 "pages/Article%3A Nobody Wants to Use Software.md"
+08:39:00.336 › download progress: 100% 1255/1255 "pages/Tweet%3A Tweets From Chris Coyier.md"
+08:39:00.337 › download progress: 100% 1348/1348 "pages/Tweet%3A Tweets From API Evangelist.md"
+08:39:00.337 › download progress: 100% 1320/1320 "pages/Tweet%3A Tweets From Thorsten Brunzendorf.md"
+08:39:00.337 › download progress: 100% 1291/1291 "pages/Tweet%3A Tweets From Janelle Shane.md"
+08:39:00.337 › download progress: 100% 1332/1332 "pages/Tweet%3A Tweets From Rob From Online (Unofficial) 📱.md"
+08:39:00.337 › download progress: 100% 1340/1340 "pages/Tweet%3A Tweets From Gerardo Andrade.md"
+08:39:00.337 › download progress: 100% 1336/1336 "pages/Tweet%3A Tweets From Bitter Southerner.md"
+08:39:00.337 › download progress: 100% 1267/1267 "pages/Tweet%3A Tweets From Nora Jones.md"
+08:39:00.337 › download progress: 100% 1316/1316 "pages/Tweet%3A Tweets from Miguel Piedrafita.md"
+08:39:00.337 › download progress: 100% 1348/1348 "pages/Tweet%3A Tweets From Colette Alexander.md"
+08:39:00.337 › download progress: 100% 1328/1328 "pages/Tweet%3A Tweets from 🧑\u{200d}🌾 Matteo Cervelli %7C The People Gardener 🚢.md"
+08:39:00.337 › download progress: 100% 1275/1275 "pages/Tweet%3A Tweets From MarcZenn.md"
+08:39:00.338 › download progress: 100% 1255/1255 "pages/Tweet%3A Tweets From Daniel Powell.md"
+08:39:00.338 › download progress: 100% 1275/1275 "pages/Tweet%3A Tweets From THE INSPIRING CONTENT™ %7C It's All About Mindset🧠.md"
+08:39:00.338 › download progress: 100% 1263/1263 "pages/Tweet%3A Tweets From Adrian Colyer.md"
+08:39:00.338 › download progress: 100% 1328/1328 "pages/Tweet%3A Tweets From Brian Dussault.md"
+08:39:00.338 › download progress: 100% 1303/1303 "pages/Tweet%3A Tweets From Science Girlfriend 🧑🏻\u{200d}🔬🌈.md"
+08:39:00.338 › download progress: 100% 1271/1271 "pages/Book%3A The Shallows.md"
+08:39:00.338 › download progress: 100% 1312/1312 "pages/Tweet%3A Tweets From Natasha Huckfield.md"
+08:39:00.338 › download progress: 100% 1340/1340 "pages/Tweet%3A Tweets From Chris Aniszczyk.md"
+08:39:00.338 › download progress: 100% 1340/1340 "pages/Tweet%3A Tweets From Benjamin Wilms.md"
+08:39:00.338 › download progress: 100% 1320/1320 "pages/Tweet%3A Tweets From James Merritt.md"
+08:39:00.338 › download progress: 100% 1332/1332 "pages/Tweet%3A Tweets From James Juanillo.md"
+08:39:00.338 › download progress: 100% 1259/1259 "pages/Tweet%3A Tweets From Geoff Manaugh.md"
+08:39:00.338 › download progress: 100% 1348/1348 "pages/Tweet%3A Tweets From Shopify Engineering.md"
+08:39:00.338 › download progress: 29% 373/1275 "pages/Tweet%3A Tweets From Ekaterina Budnikov.md"
+08:39:00.339 › download progress: 100% 1275/1275 "pages/Tweet%3A Tweets From Ekaterina Budnikov.md"
+08:39:00.339 › download progress: 100% 1299/1299 "pages/Tweet%3A Tweets From Jeff Sussna - Customer-Centered Delivery Coach.md"
+08:39:00.339 › download progress: 100% 1316/1316 "pages/Article%3A Introduction to Modern Network Load Balancing and Proxying.md"
+08:39:00.339 › download progress: 100% 1275/1275 "pages/Tweet%3A Tweets From John Furrier.md"
+08:39:00.339 › download progress: 100% 1267/1267 "pages/Tweet%3A Tweets From Abraham Marín-Pérez.md"
+08:39:00.339 › download progress: 100% 1259/1259 "pages/Tweet%3A Tweets From the Root.md"
+08:39:00.339 › download progress: 100% 1291/1291 "pages/Tweet%3A Tweets From Vaughn Vernon.md"
+08:39:00.340 › download progress: 100% 1279/1279 "pages/Tweet%3A Tweets From Michael Sitver 🇺🇸.md"
+08:39:00.340 › download progress: 100% 1263/1263 "pages/Tweet%3A Tweets from DJB.md"
+08:39:00.340 › download progress: 100% 1287/1287 "pages/Tweet%3A Tweets From LeVar Burton.md"
+08:39:00.340 › download progress: 100% 1303/1303 "pages/Tweet%3A Tweets From Jonathan Howard.md"
+08:39:00.340 › download progress: 100% 1295/1295 "pages/Tweet%3A Tweets From Fresco.md"
+08:39:00.340 › download progress: 100% 1312/1312 "pages/Tweet%3A Tweets From Charles Chiu.md"
+08:39:00.340 › download progress: 100% 1287/1287 "pages/Tweet%3A Tweets From Dr. Gernot Starke 🇺🇦.md"
+08:39:00.340 › download progress: 100% 1251/1251 "pages/Tweet%3A Tweets From Tracy Rotton.md"
+08:39:00.341 › download progress: 100% 1352/1352 "pages/Tweet%3A Tweets From Nagarajan Ramachandran.md"
+08:39:00.341 › download progress: 100% 1271/1271 "pages/Tweet%3A Tweets From Absurdistwords.md"
+08:39:00.341 › download progress: 100% 1279/1279 "pages/Tweet%3A Tweets From Ult. Hack. Keyboard.md"
+08:39:00.341 › download progress: 100% 1328/1328 "pages/Tweet%3A Tweets From Christine Hall.md"
+08:39:00.341 › download progress: 27% 374/1340 "pages/Tweet%3A Tweets from Ping-Teng Lin.md"
+08:39:00.341 › download progress: 100% 1340/1340 "pages/Tweet%3A Tweets from Ping-Teng Lin.md"
+08:39:00.341 › download progress: 100% 1320/1320 "pages/Tweet%3A Tweets From One Perfect Shot.md"
+08:39:00.341 › download progress: 100% 1251/1251 "pages/Tweet%3A Tweets From Mads Brodt.md"
+08:39:00.341 › download progress: 100% 1312/1312 "pages/Tweet%3A Tweets From Richard Schiff.md"
+08:39:00.341 › download progress: 100% 1324/1324 "pages/Tweet%3A Tweets From Monodraw.md"
+08:39:00.342 › download progress: 100% 1283/1283 "pages/Tweet%3A Tweets From Sabine Hossenfelder.md"
+08:39:00.342 › download progress: 100% 1344/1344 "pages/Tweet%3A Tweets From Antonio.md"
+08:39:00.342 › download progress: 100% 1332/1332 "pages/Tweet%3A Tweets From Colm MacCárthaigh.md"
+08:39:00.342 › download progress: 100% 1291/1291 "pages/Tweet%3A Tweets From Lin-Manuel Miranda.md"
+08:39:00.342 › download progress: 100% 1324/1324 "pages/Tweet%3A Tweets from mathiasverraes everywhere.md"
+08:39:00.342 › download progress: 100% 1320/1320 "pages/Tweet%3A Tweets from Josh 🚀.md"
+08:39:00.342 › download progress: 100% 1287/1287 "pages/Tweet%3A Tweets From Zuhair.md"
+08:39:00.342 › download progress: 100% 1316/1316 "pages/Article%3A Evolutionary Architecture.md"
+08:39:00.342 › download progress: 100% 1320/1320 "pages/Tweet%3A Tweets From Du.md"
+08:39:00.342 › download progress: 100% 1282/1282 "pages/Tweet%3A “Two Is Better Than Zero....md"
+08:39:00.342 › download progress: 100% 1251/1251 "pages/Tweet%3A Tweets From Marc Brooker.md"
+08:39:00.342 › download progress: 100% 1287/1287 "pages/Tweet%3A Tweets From the Hollywood Reporter.md"
+08:39:16.613 › :electron.handler/watch-dir {:path "/home/mstine/PARA-Roots/Local/1-Projects/highlights-vault"}
+08:39:16.666 › cancelling all request
+08:40:04.450 › new-window https://readwise.io/api_auth?token=h60f0f4pwjr&service=logseq
+08:40:18.354 › new-window https://readwise.io/export/logseq/preferences
+09:05:55.522 › new-window https://readwise.io/export/logseq/preferences
+09:13:19.213 › window-all-closed Quitting...
