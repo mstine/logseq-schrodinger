@@ -38,6 +38,12 @@ export async function getAllPublicPages_orig() {
   });
 }
 
+function getPage(title: String) {
+  const query = "(page [[" + title + "]])"
+  console.log("Query: " + query);
+  return logseq.DB.q(query);
+}
+
 export async function getAllPublicPages() {
   //needs to be both public, and a page (with a name)
   const query =
@@ -223,20 +229,30 @@ export async function getBlocksInPage(
     );
 
     if (isLast) {
-      setTimeout(() => {
-        console.log(zip);
-        zip.forEach(function (relativePath, file) {
-          if (file.dir) {
-            const title = normalizeTitle(file.name);
-            const index = "---\ntitle: \"" + title + "\"\ndescription: |\n   Subtitle\n---\n\n{{% children-cards /%}}\n";
-            zip.file(file.name + "_index.md", index);
-          }
-        });
+      zip.forEach(function (relativePath, file) {
+        if (file.dir && file.name != "pages/") {
+          getPage(chompPagesPrefix(file.name)).then((pages) => {
+            let page = pages.pop();
 
+            console.log("current page = " + page);
+
+            const title = page.page.originalName;
+            const subtitle = page.properties["subtitle"];
+
+            const index = "---\ntitle: \"" + title + "\"\ndescription: |\n   " + subtitle + "\n---\n\n{{% children-cards /%}}\n";
+
+            zip.file(file.name + "_index.md", index);
+            console.log(file.name + "_index.md did get added!");
+          });
+        }
+      });
+
+      await sleep(1000);
+
+      setTimeout(() => {
         zip.generateAsync({ type: "blob" }).then(function (content) {
           // see FileSaver.js
-          saveAs(content, "publicExport.zip");
-          //wait one second
+          saveAs(content, "publicExport.zip");//wait one second
           // setTimeout(() => {
           //   saveAs(content, "publicExport.zip");
           // }, 1000);
@@ -247,11 +263,21 @@ export async function getBlocksInPage(
   }
 }
 
+const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay))
+
 function normalizeTitle(fullyQualifiedTitle: string) {
   let end = fullyQualifiedTitle.length - 1;
   if (fullyQualifiedTitle.charAt(end) != '/')
     end++;
   return fullyQualifiedTitle.substring(0, end).split("/").pop();
+}
+
+function chompPagesPrefix(path: String) {
+  if (path.substring(0, 6) == "pages/") {
+    return path.substring(6, path.length);
+  } else {
+    return path;
+  }
 }
 
 async function parsePage(finalString: string, docTree) {
