@@ -236,7 +236,7 @@ export async function getBlocksInPage(
 
             console.log("current page = " + page);
 
-            const title = page.page.originalName;
+            const title = normalizeTitle(page.page.originalName);
             const subtitle = page.properties["subtitle"];
 
             const index = "---\ntitle: \"" + title + "\"\ndescription: |\n   " + subtitle + "\n---\n\n{{% children-cards /%}}\n";
@@ -247,6 +247,7 @@ export async function getBlocksInPage(
         }
       });
 
+      // Allow _index.md pages time to be generated... 1 second is very conservative I think.
       await sleep(1000);
 
       setTimeout(() => {
