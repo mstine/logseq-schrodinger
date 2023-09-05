@@ -358,9 +358,10 @@ function parseLinks(text: string, allPublicPages) {
   
   let result
   while(result = (reDescrLink.exec(text) || reLink.exec(text))) {
-    if (allPublicLinks.includes(result[result.length - 1].toLowerCase())) {
+    // does this work?
+    //if (allPublicLinks.includes(result[result.length - 1].toLowerCase())) {
       text = text.replace(result[0],`[${result[1]}]({{< ref "/pages/${result[result.length - 1]}" >}})`)
-    }
+    //}
   } 
     if (logseq.settings.linkFormat == "Without brackets") {
       text = text.replaceAll("[[", "");
